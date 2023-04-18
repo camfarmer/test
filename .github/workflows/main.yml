@@ -36,4 +36,6 @@ jobs:
         run: |
           whoami
           ip addr
-          ping -c 5 google.com
+          
+      - name: Run test.sh
+        run: test.sh
